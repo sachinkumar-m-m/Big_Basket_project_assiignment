@@ -1,0 +1,225 @@
+/* .appBar {
+  background-color: #000 !important;
+  height: 75px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-right: 0px !important;
+}
+.appBarScrool {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  height: 95px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-right: 0px !important;
+} */
+
+.list {
+  color: #fff;
+  text-decoration: none;
+}
+.list:hover {
+  color: #ff0000;
+}
+.active {
+  color: #ff0000;
+}
+.Menulist {
+  color: #fff;
+  text-decoration: none;
+}
+.menulist::before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  display: block;
+  background-color: #fff;
+  color: #fff;
+}
+.Menulist:hover {
+  color: #ff0000;
+}
+.mainButton1 {
+  background: linear-gradient(to right, #f12711, #f5af19);
+  border-radius: 5px;
+}
+.mainButton1:hover {
+  background: linear-gradient(to right, #f12711, #f5af19);
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mainButton1:hover .mainButtonLink1 {
+  color: #fff !important;
+}
+.mainButton2:hover {
+  background-color: #ff0000 !important;
+}
+.mainButton2:hover .mainButtonLink2 {
+  color: #fff !important;
+}
+.mainCard:hover {
+  transform: scale(1.06);
+}
+.lineContainer {
+  position: relative;
+}
+
+.line::after {
+  content: "";
+  height: 2px;
+  width: 50px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 50%;
+  margin-left: 5px;
+  border-radius: 100px;
+}
+.line::before {
+  content: "";
+  height: 2px;
+  width: 50px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 50%;
+  margin-left: -52px;
+  border-radius: 100px;
+}
+.dot::before {
+  content: "•";
+  position: absolute;
+  color: #ff0000;
+  left: 36%;
+  font-size: 27px;
+  line-height: 1;
+}
+
+/* Footer */
+.FooterButton {
+  color: #1c1c1c !important;
+  border: 1px solid #cecece !important;
+}
+.FooterButton:hover {
+  background-color: transparent !important;
+}
+.FooterLink {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+.FooterLink:hover {
+  color: #bdbdbd;
+}
+
+/* menu */
+.chip:hover {
+  background-color: #ff0000;
+  color: #fff;
+  border: 1px solid #ff0000;
+}
+.menuCard:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.menuCard:hover .action {
+  position: absolute;
+  top: 60%;
+  opacity: 1;
+}
+.menu_Card_Media:hover .menu_CardMedia_img {
+  transform: scale(1.1);
+}
+.MuiTabs-indicator {
+  display: none !important;
+}
+.css-1hhaylb-MuiButtonBase-root-MuiTab-root {
+  background-color: transparent !important;
+  color: transparent !important;
+}
+.css-1r5180i-MuiButtonBase-root-MuiTab-root {
+  background-color: transparent !important;
+}
+.css-1kry8lh-MuiButtonBase-root-MuiTab-root {
+  background-color: transparent !important;
+}
+.Mui-selected {
+  background-color: transparent !important;
+  color: transparent !important;
+}
+.css-6od3lo-MuiChip-label {
+  padding-left: 6px !important;
+  padding-right: 10px !important;
+}
+
+/* login */
+.LoginLink:hover {
+  color: #ff0000;
+}
+
+/* about */
+.cover {
+  position: relative;
+  max-width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.cover > img {
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  opacity: 1;
+  will-change: transform, opacity;
+  border-radius: inherit;
+  filter: unset;
+  transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+
+.effect {
+  background-color: rgba(236, 81, 101, 0);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0px;
+  height: 350px;
+  width: 100%;
+  padding: 20px 10px;
+  transition: background-color 0.2s ease 0s;
+  display: flex;
+  align-items: flex-end;
+}
+
+.effect2 {
+  transition: opacity 0.2s ease 0s;
+  opacity: 0;
+}
+
+.effect:hover {
+  background-color: rgba(250, 126, 30, 0.6);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 350px;
+  width: 100%;
+  transition: background-color 0.2s ease 0s;
+  display: flex;
+  align-items: flex-end;
+}
+
+.effect:hover .effect2 {
+  transition: opacity 0.2s ease 0s;
+  opacity: 1;
+  padding: 20px 10px;
+}
+
+/* restaurant */
+.img-wrapper {
+  overflow: hidden;
+}
+
+img.hover-zoom {
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+img.hover-zoom:hover {
+  transform: scale(1.25);
+}
